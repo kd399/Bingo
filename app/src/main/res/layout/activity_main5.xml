@@ -4,6 +4,68 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/b2"
     tools:context=".Main5Activity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="350dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/new_dis"
+        android:text="\nDESCRIPTION AND RULES"
+        android:textAlignment="center"
+        android:textColor="@color/colorbtn"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="40dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/backbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="355dp"
+        android:layout_height="448dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/colorlist"
+        android:clickable="false"
+        android:editable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="textMultiLine"
+        android:paddingLeft="10dp"
+        android:scrollbars="vertical"
+        android:text="Bingo is a game of chance in which each player matches numbers printed in different arrangements on 7x7 matrix, the game host draw numbers at random, marking the selected numbers with tiles.Continue playing until one player has covered a vertical, horizontal, or diagonal pattern of seven grid spaces on their matrix. \nFor winning you have to score seven points as soon as possible.  \n\nRequirement :-  \nIt is a multiplayer game, two mobile's are required. \n\nInstruction :- \n1.Set the name of the player. \n2.Make sure that your Bluetooth is on \n( For Connectivity ). \n3.Create Group :- The player who creates the group is the host and has to wait for a while until another player joins the group. \n4.Join Group :- After creating the group the player ( Server side ) can join the group by clicking on the name of the bluetooth from the list that is opened after clicking on the join group button. \n5.Fill the matrix randomly. \n6.Alternative chances are given.   \n\nPoints :- \n1.One point is alloted after completion of each row,column or diagonal. \n2.The first player who score seven points is the winner.  \n\nIf you found any mistake or having any trouble while operating the app. Please comment for the same. I have developed this android game for learning purpose. If you want some more feature's then please write comment so that in next version we will include it.  "
+        android:textColor="@color/colortbl"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
 </android.support.constraint.ConstraintLayout>
